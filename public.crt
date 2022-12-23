@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=JP, ST=Kanagawa, L=Yokohama, O=example, CN=root.kakeya.ca
+        Validity
+            Not Before: Dec 23 01:24:13 2022 GMT
+            Not After : Mar 27 01:24:13 2025 GMT
+        Subject: C=JP, ST=Kanagawa, L=Yokohama, O=example, CN=127.0.0.1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:a8:d3:c8:81:8d:d7:2c:61:15:b4:58:f4:29:0b:
+                    bb:fd:c9:8f:af:21:68:34:2f:56:cf:e3:cc:17:5f:
+                    84:11:01:b1:00:35:8a:32:0d:39:a9:55:76:c3:79:
+                    e3:36:80:39:a4:76:75:63:a4:fe:c8:63:f6:4d:05:
+                    82:2c:3e:df:6f:44:58:0e:c5:2e:94:a8:17:06:a6:
+                    03:bb:be:3b:7d:3f:68:a1:ad:20:be:de:59:c3:54:
+                    7c:50:c6:c5:1d:3b:f0:5b:50:6d:bf:24:b1:4b:ba:
+                    d0:8c:34:af:a1:20:61:bb:c7:bd:dd:2b:37:cf:c3:
+                    93:ee:12:74:cc:17:87:85:0c:51:18:58:c5:d0:2d:
+                    d1:a4:b0:ff:75:46:8d:d1:cd:5c:ff:1f:6e:fe:51:
+                    5c:a4:96:07:2b:34:7f:52:7b:3e:ef:38:83:93:00:
+                    77:5d:d3:77:1e:7e:54:8e:87:a9:b4:28:c2:ce:f4:
+                    f3:43:e7:01:28:2e:1a:b6:f8:04:b0:f9:2c:10:8d:
+                    10:8f:5e:13:d3:ec:65:62:12:e4:11:11:87:75:6d:
+                    b6:64:f5:cb:25:38:af:33:89:66:c0:60:9f:e1:ed:
+                    7f:02:3c:5f:c5:4d:4c:d4:d3:5c:f3:f1:76:ec:29:
+                    df:2d:06:85:5e:31:62:12:e4:66:8a:e8:d6:a4:af:
+                    2b:9b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:127.0.0.1, DNS:*.0.0.1
+    Signature Algorithm: sha256WithRSAEncryption
+         5e:6b:e6:a0:13:31:18:6a:89:82:de:c4:2d:49:cf:bf:f2:50:
+         e3:76:26:21:9a:47:ef:0b:e2:3d:96:bc:35:cf:02:92:5c:bf:
+         86:ea:f2:e5:68:fc:9a:2c:0f:45:d5:a3:a8:24:64:8f:62:88:
+         cf:2b:17:06:08:c2:4f:a8:e9:4e:b8:2f:14:37:6b:01:66:d7:
+         a5:ff:47:dc:74:42:97:90:c0:b8:4b:fa:28:ae:15:4c:6c:60:
+         8a:4b:17:bf:6b:4e:7a:a1:da:8f:c0:05:7f:4d:1b:ea:57:35:
+         de:2d:5a:5e:60:12:b8:db:3a:5e:b1:7e:ff:98:b1:0b:4f:96:
+         57:8a:cf:c5:c4:e9:2c:9f:f5:ea:a7:d5:02:37:40:73:2d:51:
+         6c:12:1c:cf:d8:32:5a:53:fc:4f:7c:a1:3d:2c:c6:bb:39:a9:
+         5f:90:40:83:2c:67:11:7b:0d:82:69:23:1a:30:b7:d2:b8:92:
+         18:39:7a:e0:9d:2a:7d:d3:48:b6:58:e5:08:99:12:31:f7:cd:
+         47:48:07:ff:7a:38:d8:e1:10:19:62:b1:49:57:6b:18:ca:41:
+         34:b4:14:c5:d8:d6:67:46:7b:92:b0:eb:f1:38:a5:a1:15:dd:
+         b4:28:f0:8c:bf:73:7a:ed:73:1f:5e:d3:3f:ef:f6:a2:e5:30:
+         0f:de:fc:3f
+-----BEGIN CERTIFICATE-----
+MIIDUzCCAjugAwIBAgIBATANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJKUDER
+MA8GA1UECAwIS2FuYWdhd2ExETAPBgNVBAcMCFlva29oYW1hMRAwDgYDVQQKDAdl
+eGFtcGxlMRcwFQYDVQQDDA5yb290Lmtha2V5YS5jYTAeFw0yMjEyMjMwMTI0MTNa
+Fw0yNTAzMjcwMTI0MTNaMFkxCzAJBgNVBAYTAkpQMREwDwYDVQQIDAhLYW5hZ2F3
+YTERMA8GA1UEBwwIWW9rb2hhbWExEDAOBgNVBAoMB2V4YW1wbGUxEjAQBgNVBAMM
+CTEyNy4wLjAuMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKjTyIGN
+1yxhFbRY9CkLu/3Jj68haDQvVs/jzBdfhBEBsQA1ijINOalVdsN54zaAOaR2dWOk
+/shj9k0Fgiw+329EWA7FLpSoFwamA7u+O30/aKGtIL7eWcNUfFDGxR078FtQbb8k
+sUu60Iw0r6EgYbvHvd0rN8/Dk+4SdMwXh4UMURhYxdAt0aSw/3VGjdHNXP8fbv5R
+XKSWBys0f1J7Pu84g5MAd13Tdx5+VI6HqbQows7080PnASguGrb4BLD5LBCNEI9e
+E9PsZWIS5BERh3VttmT1yyU4rzOJZsBgn+HtfwI8X8VNTNTTXPPxduwp3y0GhV4x
+YhLkZoro1qSvK5sCAwEAAaMhMB8wHQYDVR0RBBYwFIIJMTI3LjAuMC4xggcqLjAu
+MC4xMA0GCSqGSIb3DQEBCwUAA4IBAQBea+agEzEYaomC3sQtSc+/8lDjdiYhmkfv
+C+I9lrw1zwKSXL+G6vLlaPyaLA9F1aOoJGSPYojPKxcGCMJPqOlOuC8UN2sBZtel
+/0fcdEKXkMC4S/oorhVMbGCKSxe/a056odqPwAV/TRvqVzXeLVpeYBK42zpesX7/
+mLELT5ZXis/FxOksn/Xqp9UCN0BzLVFsEhzP2DJaU/xPfKE9LMa7OalfkECDLGcR
+ew2CaSMaMLfSuJIYOXrgnSp900i2WOUImRIx981HSAf/ejjY4RAZYrFJV2sYykE0
+tBTF2NZnRnuSsOvxOKWhFd20KPCMv3N67XMfXtM/7/ai5TAP3vw/
+-----END CERTIFICATE-----

@@ -18,18 +18,18 @@ const logging = (req, res, next) => {
     next();
 }
 
-[setCacheControl, logging, express.static("pub")].forEach(f => {
+[setCacheControl, logging, express.static(__dirname + "/pub")].forEach(f => {
     http1App.use(f);
     http2App.use(f)
 });
 
-const get = (req,res) => res.sendFile("pub/index.html");
+const get = (req,res) => res.sendFile(__dirname + "/pub/index.html");
 http1App.get("/*", get);
 http2App.get("/*", get);
 
 const option = {
-    key: fs.readFileSync("private.pem"),
-    cert: fs.readFileSync("public.crt"),
+    key: fs.readFileSync(__dirname + "/private.pem"),
+    cert: fs.readFileSync(__dirname + "/public.crt"),
 }
 
 const h1 = https.createServer(option, http1App);

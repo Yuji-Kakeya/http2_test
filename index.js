@@ -24,8 +24,8 @@ const logging = (req, res, next) => {
 });
 
 const get = (req,res) => res.sendFile(__dirname + "/pub/index.html");
-http1App.get("/*", get);
-http2App.get("/*", get);
+http1App.get("/", get);
+http2App.get("/", get);
 
 const option = {
     key: fs.readFileSync(__dirname + "/private.pem"),

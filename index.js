@@ -8,7 +8,7 @@ const http2App = require('http2-express-bridge')(express);
 const HTTP1_PORT = 443;
 const HTTP2_PORT = 8443;
 
-const setCacheControl = (req,res,next) => {
+const setCacheControl = (req, res, next) => {
     res.set({"Cache-Control": "no-store"});
     next();
 }
@@ -20,7 +20,7 @@ const logging = (req, res, next) => {
 
 [setCacheControl, logging, express.static(__dirname + "/pub")].forEach(f => {
     http1App.use(f);
-    http2App.use(f)
+    http2App.use(f);
 });
 
 const get = (req,res) => res.sendFile(__dirname + "/pub/index.html");
